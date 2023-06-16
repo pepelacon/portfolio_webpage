@@ -9,6 +9,7 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
+import flask from "./tech/flask.png"
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -21,10 +22,9 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import gazp from "./company/gazp.png";
+import box from "./company/box.png"
+import truck from "./company/truck.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -41,6 +41,7 @@ export {
   close,
   css,
   docker,
+  flask,
   figma,
   git,
   html,
@@ -52,10 +53,9 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  box,
+  gazp,
+  truck,
   carrent,
   jobit,
   tripguide,
