@@ -13,13 +13,12 @@ import {
   mongodb,
   git,
   flask,
-  docker,
   box,
   gazp,
   truck,
   reactjs,
-  carrent,
-  jobit,
+  sckillfactory,
+  racoon,
   tripguide,
   threejs,
 } from "../assets";
@@ -150,16 +149,16 @@ const experiences = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "SkillFactory",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Educational platform that allows instructors to manage content and students to view and interact with content.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "flask",
         color: "green-text-gradient",
       },
       {
@@ -167,41 +166,20 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: sckillfactory,
+    source_code_link: "https://github.com/pepelacon/capstone_project",
   },
   {
-    name: "Job IT",
+    name: "Racoon Store",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Online store equipped with search and filter tools, shopping cart, and user authorization functions.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "Auth0",
         color: "green-text-gradient",
       },
       {
@@ -209,9 +187,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+    image: racoon,
+    source_code_link: "https://github.com/pepelacon/project-second-phase",
+  }
 ];
 
 export { services, technologies, experiences, projects };

@@ -26,9 +26,8 @@ import gazp from "./company/gazp.png";
 import box from "./company/box.png"
 import truck from "./company/truck.png";
 
-import carrent from "./carrent.png";
 import sckillfactory from './SkillFactory.png'
-import jobit from "./jobit.png";
+import racoon from "./racoon.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -57,8 +56,7 @@ export {
   box,
   gazp,
   truck,
-  carrent,
   sckillfactory,
-  jobit,
+  racoon,
   tripguide,
 };
