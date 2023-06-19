@@ -45,7 +45,7 @@ const Contact = () => {
           to_email: "pryakhinda@gmail.com",
           message: form.message,
         },
-        'NtqPibENovd7X_r8q'
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
