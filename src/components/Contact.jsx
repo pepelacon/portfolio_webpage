@@ -7,9 +7,6 @@ import { EarthCanvas } from './canvas'
 import { SectionWrapper } from '../hoc'
 import { slideIn } from '../utils/motion'
 
-//NtqPibENovd7X_r8q
-// template_ju1502j
-//service_vd1abf5
 
 const Contact = () => {
   const formRef = useRef();
@@ -45,7 +42,7 @@ const Contact = () => {
           to_email: "pryakhinda@gmail.com",
           message: form.message,
         },
-       'rhT5emd97Y-AecbuV'
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
